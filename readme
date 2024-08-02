@@ -1,0 +1,30 @@
+Project Name
+Description
+
+A brief overview of your project, including what it does and why it is useful.
+Technologies Used
+
+    Next.js 14: Description of how Next.js 14 is used in the project.
+    React Table: Explanation of how React Table is utilized for dynamic tables.
+    Tailwind CSS: Details on how Tailwind CSS is used for styling and design.
+
+Features
+
+    Excel File Integration:
+        Explanation of how data is fetched from a static Excel file (.xlsx).
+        Information about intended URL integration for real-time updates and challenges related to it.
+    Caching Mechanism:
+        Details on the caching strategy implemented to enhance performance.
+
+Key Benefits
+
+    Real-Time Updates: Information on data update mechanisms and how it impacts user experience.
+    Performance Optimization: Benefits of the caching mechanism on data retrieval and load times.
+    Modern Design: How Tailwind CSS contributes to the design and user interface.
+    User-Friendly Interface: Features of React Table that improve data interaction and analysis.
+
+Usage
+
+    Viewing the Table: Instructions on how to view and interact with the table.
+    Filtering Data: How to use the filtering feature to view specific data.
+    Viewing Details: Instructions on how to access detailed data for each row.
