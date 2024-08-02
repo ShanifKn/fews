@@ -49,3 +49,17 @@ export async function GET(req) {
     });
   }
 }
+
+async function fetchExcelData() {
+  try {
+    const response = await fetch("/api/fetchData");
+    if (!response.ok) {
+      console.error("Error fetching data:", response.statusText);
+      return;
+    }
+    const result = await response.json();
+    return result;
+  } catch (error) {
+    console.error("Error fetching data:", error);
+  }
+}
